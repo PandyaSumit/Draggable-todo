@@ -92,9 +92,9 @@ const TaskForm = ({ setTasks }) => {
               className="task_status"
               onChange={handleChange}
             >
-              <option value="todo">To do</option>
-              <option value="doing">Doing</option>
-              <option value="done">Done</option>
+              <option value="todo">Do It Later</option>
+              <option value="doing">Work On</option>
+              <option value="done">Completed</option>
             </select>
             <button type="submit" className="task_submit">
               + Add Task
